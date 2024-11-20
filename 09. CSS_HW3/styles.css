@@ -1,0 +1,205 @@
+.outerContainer {
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.innerContainer {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.outer-container {
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-container {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    list-style: none;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: blanchedalmond;
+    flex-grow: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid darkorange;
+    width: 200px;
+    padding: 1rem;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.role {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.course-card img {
+    width: 100%;;
+}
+
+.course-card p {
+    width: 100%;
+}
+
+.course-card button {
+    width: 100%;
+    padding: 0.3rem;
+    background-color: #F5F5DC;
+    border: 1px solid white;
+}
+
+.product-card {
+    display: flex;
+    gap: 1rem;
+    max-width: 400px;
+    border: 1px solid lightgrey;
+    padding: 1.5rem;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #027CFF;
+    border: none;
+    color: white;
+}
+
+.description h3 {
+    margin-block-start: 0px;
+}
+
+.testimonial-card {
+    border: 1px solid lightgray;
+    padding: 1.5rem;
+    max-width: 400px;
+}
+
+.customer-card {
+    display: flex;
+    gap: 1rem;
+}
+
+.customer-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.customer-card p {
+    font-weight: 500;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    width: 200px;
+    padding: 1rem;
+    align-items: center;
+
+}
+
+.pricing-card h3 {
+    margin-block-start: 0px;
+}
+
+.pricing-card h2 {
+    color: #FF8C00;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    border-bottom: 2px solid lightgray;
+}
+
+.pricing-card button {
+    background-color: #FF8C00;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.pricing-card-row {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.card1, .card2, .card3 {
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card1 h3, .card2 h3, .card3 h3 {
+    margin-block-start: 0px;
+}
+
+.card1 h2, .card2 h2, .card3 h2 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: #FF8C00;
+    border-bottom: 2px solid lightgray;
+}
+
+.card1 button, .card2 button, .card3 button {
+    background-color: #FF8C00;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.footer {
+    background-color: #F08180;
+    padding: 2rem;
+    color: white;
+}
+
+.footerItems {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col1, .col2, .col3 {
+    min-width: 200px;
+}
